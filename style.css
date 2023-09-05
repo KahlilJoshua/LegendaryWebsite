@@ -87,6 +87,7 @@ img{
     display: grid;
     place-content: center;
     width: 100%;
+    margin-top: 100px;
 }
 
 
@@ -110,4 +111,22 @@ img{
 .custom-shape-divider-bottom-1693946001 .shape-fill {
     fill: #7FFFD4;
 }
+.custom-shape-divider-top-1693946773 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-top-1693946773 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 58px;
+}
+
+.custom-shape-divider-top-1693946773 .shape-fill {
+    fill: #7FFFD4;
+}
