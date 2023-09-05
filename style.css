@@ -1,0 +1,113 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.child{
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(255, 163, 240);
+}
+body{
+    background-color: rgb(255, 109, 231);
+}
+input{
+    margin: 20px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+.submit{
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 50px; 
+    background-color: rgb(35, 255, 182);
+    width: 70px;
+}
+.submit:hover{
+    transform: translateY(-10px);
+    transition: all;
+    transition-duration: 1s;
+    background-color: aquamarine;
+    
+
+}
+hr{
+    background-color: white;
+    height: 2px;
+    
+}
+a{
+    color: white;
+
+}
+
+.child2{
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    
+    background-color: rgb(255, 163, 240);
+}
+.child2 a{
+    
+    
+}
+.child2 p{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.imgdiv{
+    
+
+}
+img{
+    width: 300px;
+    border-radius: 90px;
+    margin: 20px;
+    border-style: solid;
+    color: aquamarine;
+    border-width: 4px;
+}
+.parent2{
+    display: grid;
+    place-content: center;
+    width: 100%;
+}
+
+
+.custom-shape-divider-bottom-1693946001 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693946001 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 58px;
+}
+
+.custom-shape-divider-bottom-1693946001 .shape-fill {
+    fill: #7FFFD4;
+}
+
