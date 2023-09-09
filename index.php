@@ -9,6 +9,11 @@
     
 </head>
 <body>
+<div class="custom-shape-divider-top-1693946773">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+    </svg>
+</div>
     <div class="parent2">
     <div class="parent">
             <div class="imgdiv">
@@ -16,7 +21,7 @@
         </div>
         <div class="child">
         <h1>LiloBook</h1>
-        <form action="functions.php" method="$_POST">
+        <form action="index.php" method="post">
             <input type="text" name="username">
             <input type="password" name="password">
             <button class="submit">Log In</button> 
@@ -45,6 +50,11 @@
 </html>
 
 <?php
-
+if($_POST["password"] == "lilo123" && $_POST["username"] == "lilo"){
+    echo "Välkommen";
+}
+else{
+    echo "Bara Lilo får logga in här!";
+}
 ?>
 
